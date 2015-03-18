@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+  initializing a repo will tell git to track changes for the folder
+  you need to tdo it to be able to to make commits to track changes as you begin changing the file
+  but you need to push the files up to github to make the commit
+  just initializing makes the file wai tin a place of limbo

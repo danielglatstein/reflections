@@ -1,0 +1,43 @@
+how did viewing a diff btw two versions of a file help you see the bug that was introduced?
+
+  it gave you an easy view to see the changes and line # it was on
+  typing in 'diff -u' before made it happen 
+  the '-u' made it easier to view
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+  more efficiently see changes
+  more easily create collaborative branches in a project while moving fwd 
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+  manually saving makes things more logical, and able to clearly label changes for diff functions
+  auto save doesnt follow logic and makes it hard to collaboarate with other ppl
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+  git allows to track mult file changes b/c its meant for coding 
+  and a lot of times diff files will reference eachother 
+  and provide eachother w/ diff rules
+
+How can you use the commands git log and git diff to view the history of files?
+
+  git log will show u the id of every commit 
+  and then the written description of what changed
+  git diff you can take two versions and it will show u the line change in each one and what was added/deleted
+
+How might using version control make you more confident to make changes that could break something?
+
+  scoping the problem becomes easier when u can see step by step what changed
+  and seeing what line it was on
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+  to track changes/progress on dodgerredhead.nyc
+
+What happens when you initialize a repository? Why do you need to do it?
+  initializing a repo will tell git to track changes for the folder
+  you need to tdo it to be able to to make commits to track changes as you begin changing the file
+  but you need to push the files up to github to make the commit
+  just initializing makes the file wai tin a place of limbo
+
